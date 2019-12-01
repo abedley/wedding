@@ -22,10 +22,9 @@
       }
 
       #card {
-        display: inline-flex;
+        display: flex;
         flex-direction: column;
         justify-content: center;
-        margin-top: 20vh;
         background-color: rgb(255,253,240);
         padding: 6vh 8vw;
       }
@@ -52,6 +51,16 @@
       span#seperator {
         margin-right: 1vw;
         margin-left: 1vw;
+      }
+
+      @media (min-width: 525px) {
+      }
+
+      @media (min-width: 900px) {
+        #card {
+          margin-top: 20vh;
+          display: inline-flex;
+        }
       }
     </style>
   </head>
